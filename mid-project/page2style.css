@@ -1,0 +1,104 @@
+body{
+    background: linear-gradient(-45deg, rgb(137, 160, 204), white,rgb(255, 255, 255),rgb(98, 168, 189));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    background-color:rgb(252, 212, 218) ;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#elements{
+    position:absolute;
+    font-family:'Copperplate', Courier, monospace;
+    color:rgba(204, 44, 44, 0.459);
+}
+#text1{
+    
+    margin:-3vw 0 0 3vw; 
+    z-index:1;
+    font-size:20vw;
+}
+
+#text2{
+    margin:-10vw 0 0 50vw; 
+    font-size:10vw;
+    z-index:2;
+}
+
+#text3{
+    margin:-10vw 0 0 2vw; 
+    font-size:20vw;
+    z-index:3;
+}
+
+#text4{
+    margin:0vw 0 0 20vw; 
+    font-size:30vw;
+    z-index:4;
+    line-height: 5vw;
+}
+
+#text5{
+    margin:0vw 0 0 -1vw; 
+    font-size:23vw;
+    z-index:5;
+    line-height: 5vw;
+}
+
+#text6{
+    margin:-35vw 0 0 0; 
+    font-size:8vw;
+    z-index:5;
+    line-height: 5vw;
+}
+
+#text7{
+    margin:-30vw 0 0 vw; 
+    font-size:40vw;
+    z-index:6;
+    line-height: 5vw;
+    margin-bottom:-15vw;
+}
+
+#image1{
+    margin-left:7vw;
+    margin-top:3vw;
+    width:30vw;
+}
+
+#image2{
+    
+    z-index:0;
+    margin-left:60vw;
+    margin-top:-10vw;
+}
+.pictures{
+    display:flex;
+    margin-top:3vw;
+    justify-content:space-around;
+}
+
+p{
+    position:fixed;
+    margin:10vw;
+    margin-left:25vw;
+    margin-right:25vw;
+    top:2vw;
+    font-size:3vw;
+    background-color:rgba(9, 146, 146, 0.479);
+
+
+
+    
+    color:rgb(167, 2, 41);
+    
+}

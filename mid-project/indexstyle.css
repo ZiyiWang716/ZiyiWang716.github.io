@@ -1,0 +1,86 @@
+body{
+    background-image: url('assets/bkgrnd.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+  }
+
+  h1{
+      font-size:5vw;
+      color:rgb(117, 103, 21);
+      text-align:center;
+      margin:0vw;
+      font-family:'Copperplate', Courier, monospace
+  }
+
+  #mainbody{
+      display:grid;
+      grid-template-columns:2% 23% 2% 23% 2% 23% 2% 23% ;
+      margin:3vw;
+  }
+h2{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family:'Copperplate', Courier, monospace;
+    color:rgb(85, 74, 15);
+    margin-right:-0.2vw;
+    
+}
+#img1{
+    background: linear-gradient(rgba(143, 143, 143, 0) 70%,rgb(255, 255, 255) 100%), url('assets/index1.jpg');
+    background-size:21vw;
+    animation-duration:3s;
+    animation-name:from-bottom;
+}
+
+#img3{
+    background: linear-gradient(rgba(143, 143, 143, 0) 70%,rgb(255, 255, 255) 100%), url('assets/index3.jpg');
+    background-size:21vw;
+    animation-duration:3s;
+    animation-name:from-bottom;
+    animation-fill-mode: both;
+}
+#img2{
+    background: linear-gradient(rgba(255, 255, 255) 0%,rgb(143,143,143,0) 30%), url('assets/index2.jpg');
+    background-size:22vw ;
+    position:relative;
+    top:8vw;
+    animation-duration:3s;
+    animation-name:from-top;
+}
+#img4{
+    background: linear-gradient(rgba(255, 255, 255) 0%,rgb(143,143,143,0) 30%), url('assets/index4.jpg');
+    background-size:22vw;
+    position:relative;
+    top:4vw;
+    animation-duration:3s;
+    animation-name:from-top;
+}
+
+.lowertext{
+    position:relative;
+    top:20vw;
+}
+
+  @keyframes from-bottom {
+    from {
+      margin-top: 140%;
+    }
+  
+    to {
+      margin-top:0;
+    }
+  }
+
+  @keyframes from-top {
+    from {
+      margin-top:-140%;
+    }
+  
+    to {
+      margin-bottom:0;
+    }
+  }
+
+  
