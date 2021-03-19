@@ -102,3 +102,15 @@ p{
 
 }
 
+.button{
+    font-family:'Copperplate', Courier, monospace;
+    position:relative;
+    right:-5vw;
+    top:35vw;
+    text-decoration:none;
+    background-color:rgba(9, 146, 146, 0.479);
+    font-size:3vw;
+    color:rgb(167, 2, 41);
+    font-weight:lighter;;
+}
+
