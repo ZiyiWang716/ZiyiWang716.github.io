@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+	<title> TIME Magazine </title>
+	<!-- you will need to link to the css file -->
+    <link href="generatorStyle.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="scripts.js" defer></script>
+    
+</head>
+
+<body>
+    <p><img id="photoOutput" ></p>
+    <img class = "frame" src="./images/timeframe.png" >
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadPhoto(event)" style="display: none;"></p>
+    <p><label for="file" style="cursor: pointer;" id="uploadField">
+       upload a photo
+    </label></p>
+    
+    
+    
+
+</body>
+</html>
