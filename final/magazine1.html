@@ -11,12 +11,63 @@
 </head>
 
 <body>
+    
     <p><img id="photoOutput" ></p>
     <img class = "frame" src="./images/timeframe.png" >
     <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadPhoto(event)" style="display: none;"></p>
     <p><label for="file" style="cursor: pointer;" id="uploadField">
        upload a photo
     </label></p>
+    <section class="photoContainer">
+        <h1 id="ttext1" >Person of the Year</h1>
+        <div id="ttext2">
+            <h1 id="text2">Don’t hug friends and family yet, vaccines minister urges</h1>
+        </div>
+        <div id="ttext3">
+            <h1 id="text3">‘Chill, Donald’: Greta Thunberg Turns Trump’s Condescending Tweet Against Him</h1>
+        </div>
+    </section>
+    <section id="textarea1">    
+   Title: <input type="text" id="mytext1" value="Person Of the Year">
+    <button type="button" onclick="ttext1Change()">Submit</button>
+    <br><br><br>
+    <section id="textarea3">    
+        Text: <input type="text" id="mytext3" value="‘Chill, Donald’: Greta Thunberg Turns Trump’s Condescending Tweet Against Him">
+         <button type="button" onclick="ttext3Change()">Submit</button>
+    </section>
+    <br><br>
+    Text Color:
+        <select id="colorChoice" onchange="changeTextColor()">
+          <option value="#800000" >maroon</option>
+          <option value="#ff0000" >red</option>
+          <option value="#ffA500">orange</option>
+          <option value="#ffff00">yellow</option>
+          <option value="#808000">olive</option>
+          <option value="#800080">purple</option>
+          <option value="#ff00ff">fuchsia</option>
+          <option value="#ffffff">white</option>
+          <option value="#00ff00">lime</option>
+          <option value="#008000">green</option>
+          <option value="#000080">navy</option>
+          <option value="#0000ff">blue</option>
+          <option value="#00ffff">auqa</option>
+          <option value="#008080">teal</option>
+          <option value="#000000">black</option>
+          <option value="#c0c0c0">silver</option>
+          <option value="#808080">gray</option>
+    </select>
+    <br><br><br>
+    Photo Filter:
+        <select id="filterChoice" onchange="changeFilter()">
+          <option value="grayscale(1)" >gray</option>
+          <option value="brightness(1.5)" >bright</option>
+          <option value="blur(5px)">blur</option>
+          <option value="contrast(.8)">contrast</option>
+          <option value="invert(.7)">invert</option>
+          <option value="sepia(.4)">film</option>
+          <option value="saturate(1.8)">saturate</option>
+    </select>
+    
     
     
     

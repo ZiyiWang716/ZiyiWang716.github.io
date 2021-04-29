@@ -27,4 +27,71 @@
     
 }
 
+#textarea1{
+    position:absolute;
+    right:20%;
+    top:20vw;
+}
+
+#ttext1{
+    position:absolute;
+}
+
+.photoContainer{
+    position:absolute;
+    width:700px;
+    left:20px;
+}
+
+.photoContainer{
+    position:absolute;
+    width:700px;
+    left:20px;
+    height:920px;
+    
+}
+#ttext1{
+    width:700px;
+    top:24px;
+    text-align:center;
+    color:yellow;
+    font-family:cursive;
+}
+
+#ttext2{
+    width:700px;
+    top:100px;
+    color:red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2px;
+}
+
+#text2{
+    
+    text-align:center;
+    margin-left:30px;
+    width:180px;
+    margin-top:380px;
+    font-size:27px;
+}
+
+
+#ttext3{
+    width:700px;
+    top:100px;
+    color:yellow;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2px;
+}
+
+#text3{
+    
+    text-align:center;
+    margin-left:30px;
+    width:180px;
+    font-size:27px;
+}
+
+
+
 
