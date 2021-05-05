@@ -1,0 +1,41 @@
+body{
+    background-image:url(images/shelf.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#okCover{
+    position:absolute;
+    margin-left:5vw;
+    margin-top:20vw;
+    width:20vw;
+    transition: transform .2s;
+    box-shadow: 10px 10px 10px rgb(85, 85, 85);
+}
+#disneyCover{
+    position:absolute;
+    margin-left:40vw;
+    margin-top:10vw;
+    width:20vw;
+    transition: transform .2s;
+    box-shadow: 10px 10px 10px rgb(85, 85, 85);
+}
+#timeCover{
+    position:absolute;
+    margin-left:70vw;
+    margin-top:20vw;
+    width:20vw;
+    transition: transform .2s;
+    box-shadow: 10px 10px 10px rgb(85, 85, 85);
+}
+
+#okCover:hover {
+    transform: scale(1.2);  
+  }
+  #timeCover:hover {
+    transform: scale(1.2);  
+  }
+  #disneyCover:hover {
+    transform: scale(1.2);  
+  }
