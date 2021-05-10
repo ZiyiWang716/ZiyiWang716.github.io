@@ -12,8 +12,8 @@
 
 <body>
     
-    <p><img id="photoOutput" ></p>
-    <img class = "frame" src="./images/timeframe.png" >
+    <p><img id="photoOutput" style="margin-top:20px" ></p>
+    <img class = "frame" src="./images/timeframe.png"  >
     <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadPhoto(event)" style="display: none;"></p>
     <p><label for="file" style="cursor: pointer;" id="uploadField">
        upload a photo
@@ -28,15 +28,15 @@
         </div>
     </section>
     <section id="textarea1">    
-   Title: <input type="text" id="mytext1" value="Person Of the Year">
-    <button type="button" onclick="ttext1Change()">Submit</button>
+   Title: &nbsp&nbsp<input type="text" id="mytext1" value="Person Of the Year"><span> &nbsp&nbsp </span>
+   <button type="button" class="btn btn-outline-dark" onclick="ttext1Change()" style="height:80%">Try!</button>
     <br><br><br>
     <section id="textarea3">    
-        Text: <input type="text" id="mytext3" value="‘Chill, Donald’: Greta Thunberg Turns Trump’s Condescending Tweet Against Him">
-         <button type="button" onclick="ttext3Change()">Submit</button>
+        Text: &nbsp&nbsp<input type="text" id="mytext3" value="‘Chill, Donald’: Greta Thunberg Turns Trump’s Condescending Tweet Against Him"><span> &nbsp&nbsp </span>
+         <button type="button" class="btn btn-outline-dark" onclick="ttext3Change()">Try!</button>
     </section>
     <br><br>
-    Text Color:
+    Text Color:&nbsp&nbsp
         <select id="colorChoice" onchange="changeTextColor()">
           <option value="#800000" >maroon</option>
           <option value="#ff0000" >red</option>
@@ -57,7 +57,7 @@
           <option value="#808080">gray</option>
     </select>
     <br><br><br>
-    Photo Filter:
+    Photo Filter:&nbsp&nbsp
         <select id="filterChoice" onchange="changeFilter()">
             <option value="none" >none</option>
           <option value="grayscale(1)" >gray</option>
@@ -68,6 +68,12 @@
           <option value="sepia(.4)">film</option>
           <option value="saturate(1.8)">saturate</option>
     </select>
+    <div id="mySidenav" class="sidenav">
+        <a href="magazine1.html" id="page1"><img src="images/logo1.png" style="width:4vw"></a>
+        <a href="magazine2.html" id="page2"><img src="images/logo2.png" style="width:4vw"></a>
+        <a href="magazine3.html" id="page3"><img src="images/logo3.png" style="width:4vw"></a>
+        <a href="shelf.html" id="page4"><img src="images/logo4.png" style="width:3vw"></a>
+      </div>
     
     
     

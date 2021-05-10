@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(0, 0, 0);
+}
 .frame{
     position:absolute;
     width:700px;
@@ -320,5 +323,60 @@
       position:absolute;
       margin-left:60vw;
       top:27vw;
+  }
+  button{
+      background-color: green;
+  }
+
+  #mySidenav a {
+    position: fixed; 
+    right: -4vw; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #mySidenav a:hover {
+    right: 0; 
+  }
+  
+  #page1{
+    top: 120px;
+    background-color: #ffffff;
+    border-left:3px solid rgb(143, 143, 143);
+    border-top:3px solid rgb(92, 92, 92);
+    border-bottom:3px solid rgb(92, 92, 92);
+    box-shadow:10px 8px 10px rgba(44, 44, 44, 0.692)
+  }
+  
+  #page2 {
+    top: 210px;
+    background-color: #ffffff;
+    border-left:3px solid rgb(92, 92, 92);
+    border-top:3px solid rgb(92, 92, 92);
+    border-bottom:3px solid rgb(92, 92, 92);
+    box-shadow:10px 8px 10px rgba(44, 44, 44, 0.692)
+  }
+  
+  #page3{
+    top: 300px;
+    background-color: #ffffff;
+    border-left:3px solid rgb(92, 92, 92);
+    border-top:3px solid rgb(92, 92, 92);
+    border-bottom:3px solid rgb(92, 92, 92);
+    box-shadow:10px 8px 10px rgba(44, 44, 44, 0.692)
+  }
+  
+  #page4 {
+    top: 390px;
+    background-color: #ffffff;
+    border-left:3px solid rgb(92, 92, 92);
+    border-top:3px solid rgb(92, 92, 92);
+    border-bottom:3px solid rgb(92, 92, 92);
+    box-shadow:10px 8px 10px rgba(44, 44, 44, 0.692)
   }
 
