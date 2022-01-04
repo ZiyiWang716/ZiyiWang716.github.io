@@ -1,0 +1,157 @@
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+  }
+.article{
+    margin-left:10vw;
+    margin-right:10vw;
+}
+.title{
+    font-size:4vw;
+    font-weight:800;
+    text-align:center;
+    margin-top:4vw;
+    color:rgb(72, 72, 72);
+}
+
+.subtitle{
+    font-weight:600;
+    font-size:2.5vw;
+    text-align:left;
+    margin-top:3vw;
+    margin-left:2vw;
+    color:rgb(72, 72, 72);
+}
+.subsubtitle{
+    font-weight:600;
+    font-size:1.8vw;
+    text-align:left;
+    margin-top:2vw;
+    margin-left:6vw;
+    color:rgb(72, 72, 72);
+
+}
+
+.grid-1{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+#chunck-1{
+  grid-column-start:1;
+  grid-column-end: 3;
+  grid-row-start: 0;
+}
+#chunck-2{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  #chunck-3{
+    margin-top:-10vw;
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+.body-text{
+    font-weight:500;
+    font-size:1.5vw;
+    text-align:left;
+    line-height:2.3vw;
+    margin:8vw;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    color:rgb(72, 72, 72);
+}
+
+.article-ul{
+    list-style-type: disc;
+    font-weight:500;
+    font-size:1.5vw;
+    text-align:left;
+    line-height:2.3vw;
+    margin:15vw;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    color:rgb(72, 72, 72);
+}
+
+.window-container{
+    display:flex;
+    align-items: left;
+    justify-content: space-around;
+    
+}
+.forList{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    column-gap:5vw;
+    justify-content: space-between;
+}
+
+.article-fullimg{
+    width:90%;
+    margin-left:5%;
+}
+
+.grid-2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+
+.album-img{
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.album-ul{
+    margin-top:2vw;
+    /* list-style-type: disc; */
+    font-weight:500;
+    font-size:1.5vw;
+    text-align:left;
+    line-height:4vw;
+    color:rgb(72, 72, 72);
+
+}
+
+.body-text-emph{
+    font-weight:500;
+    font-size:2.5vw;
+    text-align:left;
+    line-height:4vw;
+    margin:6vw;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    color:rgb(72, 72, 72);
+}
+
+#ux-description{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 0;
+  }
+
+  .prototype-video{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4vw;
+    border-radius: 0.5vw;
+}
+
+.fridgey-interface{
+    margin:2vw;
+    width:25vw;
+    height:40vw;
+    border-radius: 1vw;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+

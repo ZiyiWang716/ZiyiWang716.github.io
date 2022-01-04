@@ -1,0 +1,54 @@
+.photo-album{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    margin:2vw;
+    border-radius:1vw;
+}
+
+#whole-view{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width:90%;
+    margin:auto;
+    margin-bottom:5vw;
+  }
+
+#detail3{
+    grid-column-start:4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width:90%;
+    margin:auto;
+}
+
+#detail4{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    width:70%;
+    margin:auto;
+}
+
+#detail1{
+    grid-column-start:4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    width:100%;
+    margin:auto;
+    margin-left:-5vw;
+}
+
+#detail2{
+    grid-column-start:1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    width:80%;
+    margin:auto;
+    margin-top:4vw;
+}

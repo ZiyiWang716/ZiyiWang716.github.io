@@ -2,45 +2,93 @@
 <html >
 <head>
     <title >Ziyi</title>
-    <link rel="stylesheet" type="text/css" href="index-css.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/logo.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<br>
-<br>
-<h1 style="font-size:60px;text-align:center;color:rgb(0, 0, 0);font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
-     Ziyi's HomePage 
-</h1>
-<!-- <section id="top-part"> </section> -->
-<div class="grid-container">
-    <div class="grid-item" id="item1" >
-        <a href="mid-project/index.html" style="color: rgb(70, 62, 33);font-size:30px;">
-            <img src="assets/works-covers/ukiyo-e.jpeg" style="width:100%;height:100%">
-        </a>
+    <nav>
+      <a id="home-icon"href="index.html" ><img src="assets/img/logo.png"style="width:6vw;height:6vw;"></a>
+        <ul class="navigation">
+          <li><a href="index.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="exploration.html" class="nav-link">Exploration</a></li>
+          <!-- <li><a href="#Contact" class="nav-link">Contact</a></li> -->
+        </ul>
+  </nav>
+  <section class="hero" id="about">
+    <!-- <div class="bio animate__animated animate__fadeInLeft"> -->
+    <div class="bio leftFade">
+      <h1 class="bio-title">Hi! I'm <span style="color:var(--secondary-color)">Ziyi Hilda Wang.</span></h1>
+      <p class="bio-text" >
+        &nbsp &nbsp My dream is to become a Designer & Programmer who can build powerful human-centered technology to benifit 
+        the humans and the world by researching the mind of people, learning from it, 
+        and creating out of it.
+      </p>
     </div>
-    <!-- <div class="grid-item" id="item2">
-        <a href="final/shelf.html" style="color: rgb(70, 62, 33);font-size:30px;">
-            <img src="assets/works-covers/magazine.jpeg" style="width:100%;height:100%">
-        </a>
-    
-    </div> -->
-<!-- 
-    <div class="grid-item" id="item3">
-        <a href="final/shelf.html" style="color: rgb(70, 62, 33);font-size:30px;">
-            <img src="assets/works-covers/final-logo.jpeg" style="width:40vw;height:40vw">
-        </a>
-    </div> -->
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-    <div class="grid-item">7</div>
-    <div class="grid-item">8</div>
-    <div class="grid-item">9</div>
+</section>
+<h2 class="subheader">About Me</h2>
+<section class="about-header" >
+  <div class="aboutMe rightFade">
+    <p class="description">I am currently an NYU undergraduate majoring in
+      Computer Science and minoring in Itegrated Design & Media. 
+      I am passionate about design and technology, and always ready to explore new things!
+      <br><br></p>
+      <div><img src="assets/img/me.jpeg" class="myPhoto"></div>
   </div>
-<br>
-
-<br>
+</section>
+<h2 class="subheader">My Skill Set</h2>
+<section class="skills" id="skills">
+    <div class="skills leftFade">
+      <h2 class="skill-category">Programming Language</h2>
+      <div>
+        <img class="icons" src="assets/img/icons/js.png" >
+        <img class="icons" src="assets/img/icons/html.png" >
+        <img class="icons" src="assets/img/icons/python.png">
+        <img class="icons" src="assets/img/icons/css.png">
+      </div>
+      <h2 class="skill-category">Framwork & Library</h2>
+      <div>
+        <img class="icons" src="assets/img/icons/webgl.png" >
+        <!-- <img class="icons" src="assets/img/icons/express.png"> -->
+        <img class="icons" src="assets/img/icons/react.png">
+        <img class="icons" src="assets/img/icons/tf.png" >
+        <img class="icons" src="assets/img/icons/pytorch.png" >
+      </div>
+      <h2 class="skill-category">Software</h2>
+      <div>
+        <img class="icons" src="assets/img/icons/figma.png" >
+        <img class="icons" src="assets/img/icons/maya.png" >
+        <img class="icons" src="assets/img/icons/ps.png">
+        <img class="icons" src="assets/img/icons/ai.png">
+        <img class="icons" src="assets/img/icons/id.png" >
+      </div>
+  
 </div>
+</section>
+<h2 class="subheader">Contact Me</h2>
+<section  >
+    <div class="  rightFade">
+      <a  href = "mailto: zw1718@nyu.edu"><p id="myEmail">zw1718@nyu.edu</p></a>
+      
+  
+</div>
+</section>
+
+    <script src="assets/js/app.js"></script>
+    <section></section>
+
+
 
 </body>
 </html>

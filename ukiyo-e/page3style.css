@@ -1,0 +1,106 @@
+body{
+    background: linear-gradient(-45deg, rgba(233, 27, 27, 0.534), white,rgb(255, 255, 255),rgba(228, 21, 31, 0.473));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#elements{
+    position:absolute;
+    font-family:'Copperplate', Courier, monospace;
+    color:rgba(0, 95, 16, 0.404);
+}
+#text1{
+    
+    margin:-20vw 0 0 3vw; 
+    z-index:1;
+    font-size:20vw;
+}
+
+#text2{
+    margin:-5vw 0 0 vw; 
+    font-size:10vw;
+    z-index:2;
+}
+
+#text3{
+    margin:10vw 0 0 2vw; 
+    font-size:20vw;
+    z-index:3;
+}
+
+#text4{
+    margin:0vw 0 0 -10vw; 
+    font-size:30vw;
+    z-index:4;
+    line-height: 5vw;
+}
+
+#text5{
+    margin:-60vw 0 0 25vw; 
+    font-size:23vw;
+    z-index:5;
+    line-height: 5vw;
+}
+
+#text6{
+    margin:-30vw 0 0 -50vw; 
+    font-size:8vw;
+    z-index:5;
+    line-height: 5vw;
+}
+
+#text7{
+    margin:-30vw 0 0 vw; 
+    font-size:40vw;
+    z-index:6;
+    line-height: 5vw;
+    margin-bottom:-15vw;
+}
+.pictures{
+    display:flex;
+    justify-content:center;
+    margin-top:20vw;
+}
+img{
+    margin:4vw;
+    margin-top:2vw;
+}
+
+p{
+    position:fixed;
+    margin:15vw;
+    margin-left:20vw;
+    margin-right:20vw;
+    top:2vw;
+    font-size:3vw;
+    background-color:rgba(255, 255, 255, 0.479);
+
+
+
+    
+    color:rgb(0, 95, 16);
+    
+}
+
+.button{
+    font-family:'Copperplate', Courier, monospace;
+    position:relative;
+    right:-47vw;
+    top:25vw;
+    text-decoration:none;
+    background-color:rgba(255, 255, 255, 0.479);
+    font-size:3vw;
+    color:rgb(0, 95, 16);
+    font-weight:lighter;
+}

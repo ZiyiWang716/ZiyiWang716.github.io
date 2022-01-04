@@ -1,0 +1,261 @@
+#top-part{
+    width:100%;
+    height:30vw;
+    background-color: bisque;
+    animation-duration: 4s;
+    animation-name:from-left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+    margin:5vw;
+    grid-gap:5vw;
+ 
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  #item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:2;
+  }
+
+  #item2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end:4;
+  }
+  #item3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:4;
+    object-fit:cover;
+  }
+
+#profile-img{
+    height:30vw;
+    animation:backwards;
+}
+
+@keyframes from-left {
+    from {
+      background-color:rgb(0,0,0);
+    }
+  
+    to {
+        background-color:rgb(255,255,255);
+    }
+  }
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+  .animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+  }
+  .animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+  }
+/* Variables */
+:root {
+  --font-family: Verdana, Helvetica, sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #94a83b;
+  --secondary-color: #ea444f;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5vw;
+  --bottom-margin-2: 1vw;
+  --line-height: 1.7vw;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #6f8023;;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5vw 3.5vw;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  height:7vw;
+}
+
+nav h1 {
+  color: var(--primary-color);
+}
+
+nav a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+nav a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+  margin-left:1vw;
+  margin-right:1vw;
+  font-size:1.8vw;
+}
+
+.hero {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vw;
+  height: 35vw;
+  max-width: 68.75vw;
+  margin: auto;
+  margin-left:10vw;
+  /* background-color: rgb(110, 10, 10); */
+}
+
+.bio {
+  margin-top:4rem;
+  margin-left:0rem;
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 6px;
+}
+
+.bio h1 {
+  
+  font-size:5vw;
+  color:var(--primary-color);
+}
+
+.bio p {
+  line-height:120%;
+  letter-spacing:0.02vw;
+  width:65%;
+  font-size:2vw;
+  font-weight:bolder;
+  margin-top:8vw;
+  margin-left:35vw;
+  padding: 0.3vw 0;
+  color:#6f8023;
+}
+.aboutMe {
+  display:flex;
+  grid-column:2;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vw;
+  max-width: 68.75vw;
+  margin: auto;
+  line-height:120%;
+  letter-spacing:0.02vw;
+  font-size:2vw;
+  font-weight:bolder;
+  margin-top:2vw;
+  padding: 0.3vw 0;
+  color:#6f8023;
+}
+.subheader{
+  text-align:center;
+  font-size:3vw;
+  margin-bottom: 1vw;
+  margin-top:10vw;
+  color:var(--secondary-color);
+}
+.description{
+  
+  width:65%;
+}
+.myPhoto{
+  width:30vw;
+  margin-left:5vw;
+}
+
+
+.skills {
+  max-width: 68.75vw;
+  margin: auto;
+  text-align: left;
+  margin-top: 2.5vw;
+  margin-bottom:5vw;
+}
+
+
+.skills-wrapper img {
+  padding: 1.25vw;
+}
+
+.icon {
+  width: 11.875vw;
+  height: 11.25vw;
+}
+
+.icons{
+  width:12vw;
+  margin:-1vw;
+  padding:3.5vw;
+}
+
+.skill-category{
+  color:#6f8023;
+}
+
+#myEmail{
+  text-align:center;
+  margin-top:5vw;
+  font-size:2vw;
+  font-weight:bolder;
+  margin-bottom:10vw;
+}
+
+#home-icon:hover{
+  border:none;
+}
+

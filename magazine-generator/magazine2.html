@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+	<title> Disney Magazine </title>
+	<!-- you will need to link to the css file -->
+    <link href="generatorStyle.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+    <section class="photoContainer">
+    <p><img id="photoOutput" ></p>
+    <img id="princess1" src="./images/cinderella.png" width="380px" >
+    <img id="princess2" src="./images/snowwhite.png" width="280px">
+    <img id="frameDisney" src="./images/disneyFrame.png" >
+    <img class="stickers" src="./images/sticker1.png" width="200px">
+    <img class="stickers" src="./images/sticker2.png" width="120px">
+    <img class="stickers" src="./images/sticker3.png" width="200px">
+    <img class="stickers" src="./images/sticker4.png" width="160px">
+    
+
+    </section>
+   
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadPhoto(event)" style="display: none;"></p>
+    <p><label for="file" style="cursor: pointer;" id="uploadField">
+       upload a photo
+    </label></p>
+    
+        
+    
+    
+    <br><br>
+    <div id="choice1">
+    Princess1:&nbsp&nbsp
+        <select id="princess1Choice" onchange="changePrincess1()">
+
+          <option value="./images/cinderella.png">Cidnerella</option>
+          <option value="./images/rapunzel.png" >Rapunzel</option>
+          <option value="./images/mulan.png" >Mulan</option>
+    </select>
+    </div>
+    <br><br><br>
+    <div id="choice2">
+        Princess2:&nbsp&nbsp
+            <select id="princess2Choice" onchange="changePrincess2()">
+                <option value="./images/snowwhite.png">Snow White</option>
+              <option value="./images/ariel.png">Ariel</option>
+              <option value="./images/jesmine.png" >Jesmine</option>
+        </select>
+        </div>
+        <div id="starshine">
+            <div class="template shine"></div>
+        </div>
+        <br><br><br>
+        <div style="position:absolute;
+        left:60vw;
+        top:27vw;">
+        Photo Filter:&nbsp&nbsp
+            <select id="filterChoice" onchange="changeFilter()">
+                <option value="none" >none</option>
+              <option value="grayscale(1)" >gray</option>
+              <option value="brightness(1.5)" >bright</option>
+              <option value="blur(5px)">blur</option>
+              <option value="contrast(.8)">contrast</option>
+              <option value="invert(.7)">invert</option>
+              <option value="sepia(.4)">film</option>
+              <option value="saturate(1.8)">saturate</option>
+        </select>
+    </div>
+    <br><br><br>
+    <div style="position:absolute;
+        left:60vw;
+        top:32vw;">
+    (Darg the stickers as you want!)
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="magazine1.html" id="page1"><img src="images/logo1.png" style="width:4vw"></a>
+        <a href="magazine2.html" id="page2"><img src="images/logo2.png" style="width:4vw"></a>
+        <a href="magazine3.html" id="page3"><img src="images/logo3.png" style="width:4vw"></a>
+        <a href="shelf.html" id="page4"><img src="images/logo4.png" style="width:3vw"></a>
+      </div>
+    
+    
+    
+
+</body>
+</html>

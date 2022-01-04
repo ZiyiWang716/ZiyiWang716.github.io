@@ -1,0 +1,110 @@
+.photo-album{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin:2vw;
+    border-radius:1vw;
+}
+
+#photo2{
+    width:95%;
+    margin:auto;
+}
+#photo3{
+    width:95%;
+    margin:auto;
+}
+#photo4{
+    width:95%;
+    margin:auto;
+}
+
+#photo8{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+#photo9{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo10{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo11{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+#photo1{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo12{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo19{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+#photo7{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo18{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo18{
+    width:95%;
+    margin:auto;
+    margin-top:2vw;
+}
+
+#photo16{
+    width:95%;
+    margin:auto;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top:2vw;
+    margin-left:2.5vw;
+}
+
+#photo13{
+    width:100%;
+    margin:auto;
+    margin-top:3vw;
+}
+
+#photo5{
+    width:95%;
+    margin:auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top:2vw;
+}
+
+#photo15{
+    width:100%;
+    margin:auto;
+    margin-top:3vw;
+    margin-left:1vw;
+}
+
+
+
+
