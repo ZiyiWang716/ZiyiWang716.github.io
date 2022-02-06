@@ -54,8 +54,9 @@ u{
 
   .brief {
     font-size: 1vw;
-    padding: 16px 32px;
+    margin-top:1vw;
     text-align:center;
+
   }
   .project-name{
     font-size: 2vw;
