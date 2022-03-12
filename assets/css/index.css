@@ -260,3 +260,22 @@ nav ul li {
   border:none;
 }
 
+.cta-projects{
+  border: none;
+  cursor:pointer;
+  font-size:2vw;
+  font-weight:bolder;
+  padding: 0.3vw 0;
+  color:white;
+  text-align:center;
+  padding:1vw;
+  background-color:#ea444f;
+  /* border-radius:1vw; */
+}
+.cta-projects:hover {
+  background-color:white;
+  color:#ea444f;
+  border:2px solid;
+  border-color:#ea444f;
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
