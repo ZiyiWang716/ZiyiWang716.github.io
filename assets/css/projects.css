@@ -2,11 +2,12 @@
   --animate-duration: 2s;
 }
 .project-subheader{
-    text-align:center;
-    font-size:3vw;
+    text-align:left;
+    font-size:4vw;
     margin-top:4vw;
-    margin-left:3vw;
+    margin-left:6vw;
     color:#6f8023;
+    /* color:rgb(72, 72, 72); */
   }
 .decorative-line{
     text-align:center;
@@ -23,7 +24,7 @@ u{
 .project-board{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     padding: 10px;
     margin:auto;
@@ -59,14 +60,20 @@ u{
 
   }
   .project-name{
+    text-align:left;
+    margin-left:2vw;
     font-size: 2vw;
     color:var(--secondary-color);
+    /* color:rgb(72, 72, 72); */
     color:#6f8023;
     font-weight:bolder;
   }
   .project-category{
-      color:var(--primary-color);
+    text-align:left;
+    margin-left:2vw;
+      /* color:rgb(72, 72, 72); */
       color:#6f8023;
+      font-weight:lighter;
       
   }
 
