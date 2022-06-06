@@ -93,10 +93,13 @@
     width:90%;
     margin-left:5%;
 }
-
+.article-halfimg{
+    width:90%;
+}
 .grid-2{
     display:grid;
     grid-template-columns:1fr 1fr;
+    margin:2vw;
 }
 
 
